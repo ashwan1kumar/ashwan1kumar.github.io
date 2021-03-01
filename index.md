@@ -25,44 +25,6 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-<!DOCTYPE html>
-<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-<meta content="utf-8" http-equiv="encoding">
-<script>
-    function patronus()
-    {
-        var search = document.getElementById('query').value;
-        var prefix = "https://www.ecosia.org/search?q=";
-        prefix = prefix + search;
-        // alert(prefix);
-        setTimeout(function(){window.location = prefix;}, 0);
-    };
-</script>
-<style>
-    .image
-    {
-        width:300px;
-        height:300px;
-        padding-top: 150px;
-        /* align-items: center; */
-    }
-    #center
-    {
-        text-align: center;
-    }
-</style>
-<title>Ecosia</title>
-<body>
-    <div id="center">
-        <img class="image" src="Ecosia_logo.png">
-    </div>
-    <form>
-        <div id="center" style="padding-top: 50px; ">
-            <input type="Text" required id="query" placeholder="Search the web to plant trees ..." style="width:1000px; height:45px;border-radius: 10px;"> 
-            <button type="Submit" style="width: 100px; height:50px; border-radius: 10px;" onclick="patronus()"/>Search</button>
-        </div>
-    </form>
-</body>
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
